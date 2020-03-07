@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 14 for Windows Desktop
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdobeCrackHelper", "AdobeCrackHelper\AdobeCrackHelper.csproj", "{5666E622-84D2-4ED2-96B8-E03FB643F3A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CCE74E84-68CF-44C9-B9E3-052BF11E3446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdobeCrackHelper.Test", "AdobeCrackHelper.Test\AdobeCrackHelper.Test.csproj", "{8B2D060D-6FD1-4DCC-A3B0-FA7BC23AC4FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,8 +20,18 @@ Global
 		{5666E622-84D2-4ED2-96B8-E03FB643F3A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5666E622-84D2-4ED2-96B8-E03FB643F3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5666E622-84D2-4ED2-96B8-E03FB643F3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2D060D-6FD1-4DCC-A3B0-FA7BC23AC4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2D060D-6FD1-4DCC-A3B0-FA7BC23AC4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2D060D-6FD1-4DCC-A3B0-FA7BC23AC4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2D060D-6FD1-4DCC-A3B0-FA7BC23AC4FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B2D060D-6FD1-4DCC-A3B0-FA7BC23AC4FD} = {CCE74E84-68CF-44C9-B9E3-052BF11E3446}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC2E8791-75AC-4098-B626-B78CA9706A4A}
 	EndGlobalSection
 EndGlobal

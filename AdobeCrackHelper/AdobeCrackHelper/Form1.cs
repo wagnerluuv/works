@@ -19,8 +19,11 @@ namespace AdobeCrackHelper
         public Form1()
         {
             InitializeComponent();
-        }
-
+        }/// <summary>
+        /// button click browse for cracked 64 bit library
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonBrowse64_Click(object sender, EventArgs e)
         {
             textBoxFile64.GetFilePath();
