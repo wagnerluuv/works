@@ -13,6 +13,9 @@ namespace AdobeCrackHelper
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// AdobeCrackHelper
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
